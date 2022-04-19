@@ -19,6 +19,11 @@ public class Thread01 {
 
         Cat cat = new Cat();
         cat.start();
+        Cat cat1 = new Cat();
+        cat1.start();
+        System.out.println("cat"+cat.getId()+cat.getName()+cat.getState()+cat.getThreadGroup());
+        System.out.println("cat1"+cat1.getId()+cat1.getName()+cat1.getState());
+
         System.out.println(Thread.currentThread().getName());
         //runable方式
         Thread thread = new Thread(new Dog());
