@@ -1,3 +1,5 @@
+package thread;
+
 /**
  * @Author rj
  * @Date 2022/4/18 16:08
