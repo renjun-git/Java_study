@@ -38,7 +38,6 @@ class SaleTiceket01 extends Thread{
 
     private  static int  tickets=100;
 
-    
     @Override
     public void run() {
         while (true) {
