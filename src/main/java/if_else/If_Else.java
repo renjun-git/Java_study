@@ -1,3 +1,5 @@
+package if_else;
+
 import java.io.IOException;
 import java.nio.CharBuffer;
 import java.util.Scanner;
