@@ -1,8 +1,5 @@
 package enumeration;
 
-import java.sql.Array;
-import java.util.Map;
-
 /**
  * @Author rj
  * @Date 2022/4/22 15:19
@@ -17,6 +14,7 @@ public class Enum {
     public static void main(String[] args) {
         System.out.println(Reason.AUTUMN);
         System.out.println(Reason.SPRING);
+
     }
 }
 
